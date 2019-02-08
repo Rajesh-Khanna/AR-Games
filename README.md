@@ -49,16 +49,19 @@ git clone https://github.com/Rajesh-Khanna/AR-Games.git
 python3 snake.py
 ```
 * To run ping pong
+
 ```bash
 python3 pong.py
 ```
 
+To start the game
+
 	* Two new windows pop up one to display the 2D game and another to display the AR.
 	* First we need to initaly calibrate to you cameras distortions. For that place `checks.jpg` image infront of the camera and  move the paper freely for the program to calibrate from different angles till the you see `marker_board.jpg`. 
 
-	![Checks_running board](checks.jpeg?raw=true "Checks_running board")
+![Checks_running board](checks.jpeg?raw=true "Checks_running board")
 
-	![Marker_running board](marker.jpeg?raw=true "Marker_running board")
+![Marker_running board](marker.jpeg?raw=true "Marker_running board")
 
 	* Now place the `checks.jpg` board aside and hold the `marker_board.jpg` you can see the game starts running.
 
